@@ -1,0 +1,19 @@
+.book-review {
+    padding: 12px;
+    border: 1px solid;
+    margin: 3em 0;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 12px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.btn-active {
+    background-color: #2e2e2e;
+    color: white;
+}

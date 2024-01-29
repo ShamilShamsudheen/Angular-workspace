@@ -1,0 +1,7 @@
+
+
+<app-book-retail 
+[title]="bookTitle" 
+[subTitle]="'This is a subtitle'"
+(selectedBook)="showSelectedBook($event)"></app-book-retail>
+<app-book-products [selectedBook]="selectedBook"></app-book-products>

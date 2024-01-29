@@ -1,0 +1,20 @@
+.index-bar {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.index-bar__item {
+    border: 1px solid red;
+    font-size: 14px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.books-list {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}

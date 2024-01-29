@@ -1,0 +1,6 @@
+
+<div class="book-review" backgroundBlue>{{ selectedBook || 'No book selected'}}</div>
+
+<div class="btn" [ngClass]="{'btn-active': activated}" (click)="toggleActivation()">{{activated ? 'De-Activate': 'Activate'}}</div>
+
+<input type="number" [(ngModel)]="numberVal"/> {{numberVal | multiplyTen}}
